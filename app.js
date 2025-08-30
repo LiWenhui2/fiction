@@ -62,6 +62,6 @@ app.use('/api/announcement', announcementRouter)
 //全局错误处理
 app.use(errorHandle)
 
-app.listen(4444, () => {
-    console.log('http://43.159.41.42:4444')
+app.listen(3333, () => {
+    console.log('http://43.159.41.42:3333')
 })
