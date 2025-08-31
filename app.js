@@ -47,7 +47,8 @@ app.use(
                 '/api/verify/sendCode',
                 '/api/verify/verifyCode',
                 '/api/user/resetPwd',
-                '/api/user/uploadAvatar'
+                '/api/user/uploadAvatar',
+                '/api/user/getAgreement',
             ]
         })
 )

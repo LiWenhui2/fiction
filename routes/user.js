@@ -28,4 +28,6 @@ router.get('/getAdminInfo', userCtrl.getAdminInfo)
 router.post('/updateStuInfo', expressJoi(updateStuInfoRule), userCtrl.updateStuInfo)
 //上传头像
 router.post('/uploadAvatar', upload.single('avatar'), userCtrl.uploadAvatar)
+//获取用户协议
+router.get('/getAgreement',userCtrl.getAgreement)
 module.exports = router
